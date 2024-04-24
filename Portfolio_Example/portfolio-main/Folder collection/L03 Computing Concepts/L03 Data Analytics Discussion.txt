@@ -1,0 +1,8 @@
+
+    Identifying Muddiest Points
+
+Descriptive analytics could be considered as the statistical interpretation used for analyzing the historical data for recognizing the relationships and the patterns. Predictive analytics is considered as the procedure of using data for forecasting future outcomes. This procedure uses machine learning, data analysis, statistical models, and artificial intelligence for finding the patterns. Prescriptively, tics could be considered as the use of advanced processes as well as various tools for analyzing data and the content for recommending proper best course to be taken for action or even moving forward strategy. There are no topics involved that seem to be unclear or confusing in the data analytics learnings, other than understanding the advanced analytics. 
+
+    Discussion and Reflection
+
+By engaging in the group, I could understand the advanced analytics easily, and it helped me ensure that I could learn about how the analytics is being used for solving complex issues and generate correct insights. There are no further topics in my mind that I find confusing after discussing with the group. I understood that advanced analytics commonly needs the workers having some specialized skills for making products that would be used by the organization rather easily.  

@@ -1,0 +1,13 @@
+Component Functions: CPU (Central Processing Unit)
+
+The CPU is the center of any computer framework, taking care of calculations, informational, and information development. ⁤⁤Its speed, measured in GHz, decides assignment execution pace. ⁤⁤Multi core CPU improve execution by executing assignments concurrently. ⁤⁤Integrated with Slam and capacity, the CPU guarantees consistent computing. ⁤
+
+What is a CPU? - Central Processing Unit Explained - AWS (amazon.com)
+
+Links to an external site.
+
+Gaming and Graphics:
+
+High-performance GPUs drive gaming and visual substance creation. Specialized for parallel handling, GPUs render 3D illustrations in real-time with shocking detail. They quicken assignments like surface mapping and lighting impacts. GPU progressions, like beam following and AI-based rendering, improve visual devotion and inundation in recreations and substance creation, forming the longer term of excitement and computerized craftsmanship. 
+
+https://www.intel.com/content/www/us/en/products/docs/processors/what-is-a-gpu.html

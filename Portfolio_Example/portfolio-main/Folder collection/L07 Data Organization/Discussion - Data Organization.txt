@@ -1,0 +1,26 @@
+An example of Excel macros is automating the analysis of financial statements. This is simply because it can be used by businesses to manage their financial data by creating macros which can be used to streamline the entire process of the organization such as generations of reports. 
+
+Other macros found within the group are that they can be used to automate data entry. This will reduce delay generation of reports hence enhancing decision making based on the visualization made from the data (Roszkowska, 2020). This macro enhances efficiency by simplifying and streamlining repetitive data entry tasks by automating the input process or by providing user-friendly forms for data entry. 
+
+The financial analysis macros include the following components including things such as data input, data manipulation, financial ratio calculations, and report generation. Some of the commands are sub which stands for subroutine, end which shows the end of the subroutine, and dim, a keyword used to declare a variable. 
+
+Financial analysis macros are very crucial in the sense that they enhance our accounting process and enhance proper decision-making. They save time by automating repetitive tasks. They promote accuracy by exhibiting fewer errors, hence enhancing consistency. Challenges that can be exhibited effectively include having expertise in the VBA coding and debugging process. They can also be susceptible to security risks if not well-coded (Yoon,2020). 
+
+Macros can enhance the process of customization adaptability. They can be modified to fit users’ specific needs. Resources that have been used to automate our financial analysis macros are online materials such as w3schools, YouTube videos by Bucky Roberts, and advanced Excel books such as Excel 2019 macros for Dummies. 
+
+These macros interact with the user by providing a user interface where data can be fed into it and reports can be analyzed effectively. Developers sign their macros with digital signatures so that they can verify their authenticity. If macros are not officially signed, the user should exercise great caution when downloading them over the internet. 
+
+  
+
+  
+
+  
+
+References 
+
+​​Roszkowska, P. (2020). Fintech in financial reporting and audit for fraud prevention​ ​and safeguarding equity investments. Journal of Accounting & Organizational​ ​Change, 17(2), 164-196. https://doi.org/10.1108/jaoc-09-2019-0098
+
+Links to an external site.​ 
+
+Yoon, S. (2020). A ​study on the transformation of accounting based on new​ ​technologies: Evidence from Korea. Sustainability, 12(20),​ ​8669. https://doi.org/10.3390/su12208669
+Links to an external site.​ 

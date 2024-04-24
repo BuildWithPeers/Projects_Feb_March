@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roland</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-image: linear-gradient(to right, #f1bcbc, #e9c8a6, #ffff66, #85ff66, #6bfffc, #6b9cff, #b66bff, #ff6bff);
+      background-size: 200% 200%; /* Ensure background covers the entire viewport */
+      animation: gradientAnimation 10s ease infinite; /* Apply animation */
+      color: #fff; /* White text */
+    }
+
+    /* Animation Keyframes */
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%; /* Start position */
+      }
+      100% {
+        background-position: 100% 50%; /* End position */
+      }
+    }
+    .name {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(to right, #ff6b6b, #ffb366, #ffff66, #85ff66, #6bfffc, #6b9cff, #b66bff, #ff6bff);
+    -webkit-background-clip: text; /* Clip text to background gradient */
+    -webkit-text-fill-color: transparent; /* Hide original text color */
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" style="border-radius: 3rem;" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Roland</h1>
+
+          <p class="title">Software Engineer</p>
+          <br>
+          <p class="title">Cybersecurity</p>
+          <br>
+          <p class="title">Harrisburg University</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">abcdef@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+123 45678945</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">1 january, 1983</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>York,PA, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.twitter.com" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>milestone_1</button>
+          </li>
+
+ 
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Roland, I live in York, PA. I've got a B.S. in computer science, I majored in software engineering and system analysis from Harrisburg University. By day, I'm a Software Engineer for an automotive company that makes parts for Tesla, Ford, Sony and etc
+            You might be wondering why I'm not chasing a master's and instead doubling down on bachelor's degrees. Well, my job's cool with funding all the bachelor's degrees I want, but the master's is on me. So, here I am, giving computer science round two a shot!
+            I have a small YouTube channel and work on cars and drag race on Weekends. I am getting my second degree at world campus, B.S. in Security and Risk Analysis. Why? Cybersecurity's calling my name, and I'm all about growing my tech know-how.
+            The software engineering discipline stands out to me. Since I am already in this field with 5 years of experience. One of the strengths of this discipline is being able to grow your skills and learn different programming languages as technology grows. Some job titles that software engineers usually go for are Full-stack developer or video game developer.
+            
+          </p>
+          
+          
+      
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/graphic-designer.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Engineer</h4>
+
+                <p class="service-item-text">
+                  Making elegent and user centric softwares.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/app-development.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  Developing Solution for privacy and security.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+               
+                <img src="./assets/images/machine-learning.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video game developer</h4>
+
+                <p class="service-item-text">
+                  Working on various interesting and innovative video games.
+                </p>
+              </div>
+
+            </li>
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+     
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="milestone_1">
+
+        <header>
+          <h2 class="h2 article-title">Assignments</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+           
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+          
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./Folder collection/L01 Introduction to Information Sciences and Technology/Virtual Information Treasure Hunt.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L01: Introduction to Information Sciences and Technology</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./Folder collection/L02  History and Basics/BINARY REPRESENTATION.docx">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-2.jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L02: History and Basics</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="./Folder collection/L03 Computing Concepts/L03 Data Analytics Discussion.txt">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-3.jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L03: Computing Concepts</h3>
+
+                <!-- <p class="project-category">Web development</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="./Folder collection/L04 Hardware/Hardware Dissection Lab.docx">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-4.jpeg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L04: Hardware</h3>
+
+                <!-- <p class="project-category">AI/ML</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="./Folder collection/L05 Operating Systems/Choose the Best OS.docx">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-5.jpeg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L05: Operating Systems</h3>
+
+                <!-- <p class="project-category">AI/ML</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="./Folder collection/L06 Programming Languages/Python Programming Assignment.docx">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-6.jpeg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L06: Programming Languages</h3>
+
+                <!-- <p class="project-category">Research Project</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="./Folder collection/L07 Data Organization/CODIS Cold Case Assignment.docx">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-7.jpeg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L07: Data Organization</h3>
+
+                <!-- <p class="project-category">Web design</p> -->
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="./Folder collection/L08 Applications/OSINT Assignment.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/p-8.jpeg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">L08: Applications</h3>
+
+                <!-- <p class="project-category">Web Design</p> -->
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+     
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
